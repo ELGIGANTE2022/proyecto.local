@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*-------Banner---------*/
+
+.banner{ 
+    background-image: url("./WhatsApp\ Image\ 2022-04-13\ at\ 19.28.05.jpeg ");
+    background-color: hsla(0, 81%, 43%, 0.992);
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    height: 12rem;
+
+    }
+    
+    /*---------productos---------*/
+
+    .inventarioFlex{
+        display: inline-flex;
+        background-color: rgba(15, 15, 15, 0.774); 
+        flex-wrap: wrap;
+        padding-left: 3rem;
+    }
+
+
+    .row{
+        border-style: solid;
+        border-color: red;
+        color:rgb(255, 255, 255);
+        height: 25rem;
+        width: 15rem;
+        padding: inherit;
+        margin:3rem;
+        border-style:dashed;
+     
+    }
+    .card{
+        background-color: black;
+    }
+   
+
+    /*----------redes-----------*/
+
+    .icono{
+         font-size: 4rem; 
+         cursor: pointer;
+        }
+
+        .icono2 {
+            font-size: 4rem; 
+            cursor: pointer;
+            background-color: white;
+            color: rgba(150, 27, 27, 0.979);
+        }
+
+   
+
+
+    .map{
+        margin: 1rem;
+    }
+/*---------RESPONSIVE---------*/   
+@media(min-width: 478px) and (max-width:600px){
+
+    .row{
+        display: flex;
+        width:22rem;
+        height: 30rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media(min-width: 992px){
+
+    .row{
+        display: flex;
+        width:22rem;
+        height: 30rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    
+    }
+
+    @media(min-width: 478px;) {
+       ;
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
